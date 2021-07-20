@@ -297,6 +297,9 @@ export default {
 .isError{
      border: 1px solid #e60909 !important;
 }
+.isError>.multiselect__tags{
+ border: none !important;
+}
 
 .multiselect__select {
     background-repeat: no-repeat;
